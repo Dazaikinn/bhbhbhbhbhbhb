@@ -1,0 +1,60 @@
+#game{
+    width: 500px;
+    height: 200px;
+    border: solid rgb(68, 2, 168) 1px;
+    margin: auto;
+}
+#character{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/аниме.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px
+}
+
+
+@keyframes jump {
+    0% {top: 150px;}
+    30% {top: 100px;}
+    70% {top: 100px;}
+    100% {top: 150px;}
+}
+.animate {
+    animation: jump 300ms linear;
+}
+#block{
+    width: 80px;
+    height: 60px;
+    background-image: url(img/призрак.gif);
+    background-size: 70px 70px;
+    position: relative;
+    top: 95px;
+    left: 580px;
+
+    animation: block 1s infinite linear;
+}
+@keyframes block {
+    0% {left: 500px}
+    100% {left: -20px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
